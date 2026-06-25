@@ -2,6 +2,11 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=32&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=800&height=70&lines=Sales+Forecasting+Pipeline;XGBoost+%7C+3M%2B+Rows+%7C+Time+Series)](https://git.io/typing-svg)
 
+> 🤖 **Note:** Encountered a pandas indexing error during development (`IndexError: Too many levels`)
+> on the rolling statistics computation. Debugged and resolved with AI assistance —
+> `reset_index(level=[0,1])` was replaced with `groupby.transform(lambda x: ...)` to correctly
+> preserve index alignment across grouped rolling windows.
+
 <img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=gradient&customColorList=12" width="100%"/>
 
 ![Python](https://img.shields.io/badge/Python-A78BFA?style=for-the-badge&logo=python&logoColor=white)
