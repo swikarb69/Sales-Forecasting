@@ -1,0 +1,23 @@
+# Data files (too large for GitHub)
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Outputs
+outputs/
+*.png
+*.jpg
